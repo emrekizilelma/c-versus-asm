@@ -11,7 +11,7 @@ Write the "Hello World" in Assembly (Source is here)
 
 ## Installation
 ```sh
-nasm -f elf64 -ı hello.o hello.s
+nasm -f elf64 -o hello.o hello.s
 ld -o hello hello.o
 ./hello
 
